@@ -82,28 +82,6 @@ def basic_cleaning(df: pd.DataFrame) -> pd.DataFrame:
 
 ---
 
-## 📁 Project Structure
-
-```
-Covid_Impact_analysis/
-│
-├── 📂 data/
-│   └── train_dataset/
-│       ├── task_2-owid-covid-data-22_September_2020.csv
-│       ├── BCG_country_data.csv
-│       └── task_2-COVID-19-death_cases_per_country_after_first_death.csv
-│
-├── 📓 notebooks/
-│   └── analysis.ipynb          ← Main analysis notebook
-│
-├── 🐍 src/                     ← Reusable Python functions
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
@@ -129,22 +107,6 @@ pip install -r requirements.txt
 # Launch notebook
 jupyter notebook notebooks/
 ```
-
----
-
-## 🔮 Next Steps
-
-- [ ] 📊 Add visualizations — bar charts, heatmaps, time series
-- [ ] 🔗 Correlate smoking & age demographics with death rates
-- [ ] 🤖 Build regression model to predict death rates from demographics
-- [ ] 💉 Add BCG vaccination coverage analysis
-
----
-
-## 👨‍💻 Author
-
-**Joon** — IIT Madras BS Data Science Student
-
 ---
 
 <div align="center">
