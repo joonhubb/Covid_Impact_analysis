@@ -18,28 +18,28 @@ To explore the factors that influenced COVID-19 mortality across countries, incl
 - 📋 Government response (stringency index)
 
 **Key Questions Explored:**
-- 🌍 What was the global COVID-19 death rate as of September 2020?
-- 💀 Which countries had the highest death rates among significantly affected nations?
-- 🚬 How did smoking rates vary across regions?
-- ⚡ Which countries saw the fastest death acceleration in the 30 days after their first recorded death?
+- What was the global COVID-19 death rate as of September 2020?
+- Which countries had the highest death rates among significantly affected nations?
+-  How did smoking rates vary across regions?
+- Which countries saw the fastest death acceleration in the 30 days after their first recorded death?
 
 ---
 
-## 🔑 Key Findings
+## 🔑 Findings
 
-| # | 🔍 Finding | 📈 Value |
+| # |  Finding | Value |
 |---|-----------|---------|
-| 1 | 🌍 Global COVID-19 death rate | **~4.1%** *(as of Sep 2020)* |
-| 2 | 💀 Highest death rate (10,000+ cases) | **Italy at 11.9%** |
-| 3 | 🚬 Highest smoking country | **Nauru** *(121.5% combined men + women)* |
+| 1 |  Global COVID-19 death rate | **~4.1%** *(as of Sep 2020)* |
+| 2 |  Highest death rate (10,000+ cases) | **Italy at 11.9%** |
+| 3 |  Highest smoking country | **Nauru** *(121.5% combined men + women)* |
 | 4 | ⚡ Fastest death acceleration (30 days) | **San Marino** *(766 deaths/million)* |
-| 5 | ⚠️ Notable: Yemen | **28.9% death rate** *(small case count)* |
+| 5 |  Notable: Yemen | **28.9% death rate** *(small case count)* |
 
 ---
 
 ## 🗃️ Datasets Used
 
-| 📁 Dataset | 🔗 Source | 📝 Description |
+| Dataset | Source |  Description |
 |-----------|----------|---------------|
 | `owid-covid-data` | Our World in Data | Global COVID cases, deaths, vaccinations *(41 columns)* |
 | `BCG_country_data` | Kaggle BCG Hackathon | Country demographics, smoking rates, income groups *(31 columns)* |
@@ -86,15 +86,15 @@ def basic_cleaning(df: pd.DataFrame) -> pd.DataFrame:
 
 | Tool | Purpose |
 |------|---------|
-| 🐍 Python 3.13 | Core language |
-| 🐼 Pandas | Data loading, cleaning, groupby analysis |
-| 📊 Matplotlib | Visualizations |
-| 🎨 Seaborn | Statistical plots |
-| 🤖 Scikit-learn | ML modeling (upcoming) |
+|  Python 3.13 | Core language |
+|  Pandas | Data loading, cleaning, groupby analysis |
+|  Matplotlib | Visualizations |
+|  Seaborn | Statistical plots |
+|  Scikit-learn | ML modeling (upcoming) |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repo
